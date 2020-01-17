@@ -71,6 +71,37 @@ p {
     margin: 0 auto;
 }
 
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+header nav a {
+	text-decoration: solid;
+	color: black;
+	padding: 1.5rem 0;
+	justify-content: space-between;
+	width: 60%;
+}
+
+.lambda-black.png{
+
+}
+
+.logo-container {
+	text-align: right;
+	width: 20%;
+	align-self: right;
+}
+
+.jumbo-container{
+    width: 100%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -95,23 +126,70 @@ p {
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
+.middle-content{
+    width: 100%;
     margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
 }
 
+.box{
+
+    width:100px;
+    height:100px;
+  }
+
+  .boxes{
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 1.5rem;
+  }
+
+  .boxes p{
+      color: white;
+      text-align: justify;
+  }
+
+.teal{
+    background-color: teal;
+  }
+  
+  .gold{
+    background-color: gold;
+  }
+  
+  .cadetblue{
+    background-color: cadetblue;
+  }
+  
+  .coral{
+    background-color: coral;
+  }
+  
+  .crimson{
+    background-color: crimson;
+  }
+  
+  .forestgreen{
+    background-color: forestgreen;
+  }
+  
+  .darkorchid{
+    background-color: darkorchid;
+  }
+  
+  .hotpink{
+    background-color: hotpink;
+  }
+  
+  .indigo{
+    background-color: indigo;
+  }
+  
+  .dodgerblue{
+    background-color: dodgerblue;
+  }
+  
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
