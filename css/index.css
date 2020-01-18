@@ -64,12 +64,17 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
-    
+
 }
 
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.container-about-page .text-container{
+    padding: 0 1%;
+    padding-bottom: 20px;
 }
 
 header nav {
@@ -96,13 +101,22 @@ header nav a {
 }
 
 .logo-container {
-	width: 25%;
-	align-self: right;
+    width: 30%;
+    padding: 2%;
+	align-self: center;
 }
 
 .jumbo-container{
     display: flex;
     width: 90%;
+}
+.jumbo-about.png{
+    width: 100%;
+}
+
+.jumboabt-container{
+    display: flex;
+    justify-content: center;
 }
 
 hr {
@@ -121,6 +135,7 @@ hr {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -132,7 +147,7 @@ hr {
 }
 
 .middle-content {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     border-bottom: 1px dashed black;
 }
 
@@ -145,6 +160,19 @@ hr {
     width: 100%;
     margin: 20px 2.5%;
     
+}
+
+.multisection-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.multi-box{
+    flex: 0 0 48%;
+    padding: 1rem;
+    margin: 0 0 4%;
+    width: 50%;
 }
 
 .box{
@@ -210,7 +238,7 @@ hr {
   
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 19px;
     justify-content: space-around;
 }
 
